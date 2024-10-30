@@ -20,6 +20,6 @@ To build the Docker image, open a terminal in the project directory and run the 
 
 Once the image is built, run the container with the following command:
 
- `docker run -p 8888:8888 credit_card_fraud_detection`
+ `docker run -d -p 8888:8888 credit_card_fraud_detection`
 
  When the container is running it is possible to access to the notebook [here](http://localhost:8888).
