@@ -12,7 +12,16 @@ The code is divided in three parts:
 3.  Autoencoder implementation
 
 
-## Run the Docker
+## Run the Docker with Docker Compose
+
+It is possible to run the container using the docker-compose:
+
+`docker-compose up`
+
+When it's running, it is possible to access to the notebook [here](http://localhost:8888).
+
+
+## Run the Docker by building the image
 
 To build the Docker image, open a terminal in the project directory and run the following command:
 
@@ -23,3 +32,5 @@ Once the image is built, run the container with the following command:
  `docker run -d -p 8888:8888 credit_card_fraud_detection`
 
  When the container is running it is possible to access to the notebook [here](http://localhost:8888).
+
+
